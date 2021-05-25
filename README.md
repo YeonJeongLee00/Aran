@@ -6,7 +6,7 @@
 - ![title](https://img.shields.io/badge/DEVLOPER-안효진-123456)
 - ![title](https://img.shields.io/badge/DEVLOPER-김수연-123456)
 - ![title](https://img.shields.io/badge/DEVLOPER-김수경-123456)
-- 
+
 ## Skill
 - ![title](https://img.shields.io/badge/-Java-007396?&logo=Java&logoColor=white)
 - ![title](https://img.shields.io/badge/-Firebase-FFCA28?&logo=Firebase&logoColor=gray)
