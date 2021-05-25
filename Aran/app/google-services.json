@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "687974233018",
+    "firebase_url": "https://aran-final.firebaseio.com",
+    "project_id": "aran-final",
+    "storage_bucket": "aran-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687974233018:android:641c81a3cbc29cb223a383",
+        "android_client_info": {
+          "package_name": "com.hackathon.aran2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687974233018-l68r7kv7j496d8tkh1eobkk945j54nt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackathon.aran2",
+            "certificate_hash": "ff4f1e55540d57364f08591cb5635e17f6af43ba"
+          }
+        },
+        {
+          "client_id": "687974233018-iklvoeckusb9dj0tfou7jer1qhd8rdlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHUgm5U7uI19LwiE8iDheuxsn5SM53rK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687974233018-iklvoeckusb9dj0tfou7jer1qhd8rdlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

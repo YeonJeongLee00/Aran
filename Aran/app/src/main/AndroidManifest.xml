@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackathon.aran2">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permiission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.hackathon.aran2.LearnEmotion.EmotionCollectionActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.hackathon.aran2.Main.SelectPhotoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.LearnEmotion.RecordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.LearnEmotion.DrawImageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.LearnEmotion.OldEmotionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.LearnEmotion.Emotion_ListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.LearnEmotion.YesOrNoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.LearnEmotion.YoungEmotionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.Record.ShowRecordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.Solution.SolutionShowActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.Solution.SolutionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.Solution.LovesSolutionActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.hackathon.aran2.Main.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hackathon.aran2.Login.UserInfoActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hackathon.aran2.Login.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.Login.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hackathon.aran2.Diary.ViewPagerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.hackathon.aran2.Diary.DaysAddActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name="com.hackathon.aran2.Main.MainActivity" android:screenOrientation="portrait" />
+
+        <service android:name="com.hackathon.aran2.FirebaseConsoleMessaging.FireBaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

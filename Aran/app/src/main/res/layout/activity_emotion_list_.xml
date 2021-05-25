@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnEmotion.Emotion_ListActivity"
+    android:background="@color/colorHoneydew"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/back"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:autoSizeTextType="uniform"
+            android:drawableLeft="@drawable/back_drawable"
+            android:drawablePadding="8dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="3dp"
+            android:text="이전으로"
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:text="감정을 선택하세요."/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="match_parent" />
+</LinearLayout>
